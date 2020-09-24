@@ -56,7 +56,7 @@ public class Program_내코드 {
 		// 출력------------------------------------------
 
 		for (int i = 0; i < m.length; i++) {
-			System.out.printf("[id] : %d,  [uid] : %s,  [name] : %s,  [age] : %d\n", m[i].id, m[i].uid, m[i].name,
+			System.out.printf("[id] : %2d,  [uid] : %10s,  [name] : %3s,  [age] : %3d\n", m[i].id, m[i].uid, m[i].name,
 					m[i].age);
 		}
 		System.out.println();

@@ -6,24 +6,13 @@ public class test {
 
 	public static void main(String[] args) {
 
-		int a[] = new int[3];
-		System.out.println(Arrays.toString(a));
-		
-		String b[] = new String[3];
-		System.out.println(Arrays.toString(b));
-		
+		System.out.print("a");
+		System.out.print("a");
+		System.out.println("b");
+		System.out.println("b");
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-//
+
 //		Member[] list = new Member[3];
 //		
 //		System.out.println(Arrays.toString(list));
