@@ -2,7 +2,7 @@ package chapter7ex5;
 
 import java.util.Scanner;
 
-public class Program {
+public class Program2 {
 
 	public static void main(String[] args) {
 
@@ -12,17 +12,24 @@ public class Program {
 //		int math;
 
 		// exam객체를 생성
-		Exam exam = new Exam();
 
 		// 성적 입력
 //		exam.input();
 		Scanner scan = new Scanner(System.in);
 		System.out.print("kor : ");
-		exam.setKor(scan.nextInt());
+		int kor = scan.nextInt();
 		System.out.print("eng : ");
-		exam.setEng(scan.nextInt());
+		int eng = scan.nextInt();
 		System.out.print("math : ");
-		exam.setMath(scan.nextInt());
+		int math = scan.nextInt();
+
+//		Exam exam = new Exam();
+//		exam.setKor(kor);
+//		exam.setEng(eng);
+//		exam.setMath(math);
+
+		Exam2 exam = new Exam2(kor, eng, math);
+//		Exam2 exam2 = new Exam2();
 		
 		// 총점 계산
 		int total = exam.total();
